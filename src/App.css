@@ -1,9 +1,10 @@
 body {
-  background-color: black;
+  background-color: #cae5e6;
 }
 
 .App {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -12,6 +13,7 @@ body {
   background-color: white;
   width: 400px;
   border-radius: 16px;
+  
 }
 
 .row {

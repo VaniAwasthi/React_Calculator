@@ -29,6 +29,7 @@ const App = () => {
 
   return (
     <div className="App">
+      <h1>calculator</h1>
       <div className="calc-wrapper">
         <Input text={text} result={result} />
         <div className="row">
