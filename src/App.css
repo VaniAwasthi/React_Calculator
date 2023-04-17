@@ -1,7 +1,9 @@
 body {
   background-color: #cae5e6;
 }
-
+.App h1{
+  margin: 3% 0;
+}
 .App {
   display: flex;
   flex-direction: column;
@@ -15,7 +17,9 @@ body {
   border-radius: 16px;
   
 }
-
 .row {
   display: flex;
+}
+.btn:hover{
+  background-color: red;
 }
