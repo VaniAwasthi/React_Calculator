@@ -55,7 +55,7 @@ const App = () => {
           <Button symbol="=" handleClick={calculateResult} />
           <Button symbol="-"  handleClick={addToText} />
         </div>
-        <Button symbol="Clear" color="red" handleClick={resetInput} />
+        <Button symbol="Clear" color="orange" handleClick={resetInput} />
       </div>
     </div>
   );
